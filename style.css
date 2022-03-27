@@ -1,0 +1,130 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+}
+
+body{
+    background-color: #c5ebd6;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-image: linear-gradient(to bottom, rgb(4, 194, 4), rgb(1, 98, 1));
+    text-align: center;
+    padding: 30px;
+}
+
+header > h1{
+    font-family: 'idroid';
+    color: white;
+}
+
+header > p{
+    margin: auto;
+    width: 50vw;
+    height: 4vw;
+    padding: 10px;
+    color: rgba(255, 255, 255, 0.5)
+}
+
+nav{
+    background-color: rgb(0, 75, 0);
+}
+
+nav > a{
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+nav > a:hover{
+    text-decoration: underline;
+    background-color: green;
+    padding: 5px 15px; 
+    box-shadow: 5px 5px 5px rgba(1, 177, 24, 0.411);
+    border-radius: 5px;
+}
+
+main{
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+
+    min-width: 320px;
+    max-width: 800px;
+    margin: auto;
+}
+
+main h1{
+    font-family: 'idroid';
+    padding: 10px 0;
+}
+
+main h2{
+    font-family: 'idroid';
+    padding: 10px 0;
+}
+
+main img{
+    width: 100%;
+}
+
+.pequena{
+    width: 50%;
+    display: block;
+    margin: auto;
+}
+
+main p{
+    padding: 10px 0;
+    text-indent: 15px;
+}
+div{
+    background-color: green;
+    margin: 0 -20px 30px -20px;
+    padding: 20px;
+    width: 100%;
+    padding-bottom: 50%;
+    position: relative;
+}
+div > iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+aside{
+    background-color: rgb(123, 161, 123);
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px black;
+}
+
+aside > h1{
+    background-color: green;
+    border-radius: 10px 10px 0 0;
+    box-shadow: 2px 2px 2px black;
+}
+
+aside > ul{
+    list-style-type: '\2714\00A0';
+    list-style-position: inside;
+    columns: 2;
+    padding: 5px;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
+
+footer a{
+    text-decoration: none;
+    font-weight: bolder;
+    color: white;
+}
