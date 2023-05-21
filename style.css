@@ -58,12 +58,13 @@ main{
 }
 
 main h1{
-    font-family: 'idroid';
+    color: green;
     padding: 10px 0;
+
 }
 
 main h2{
-    font-family: 'idroid';
+    color: green;
     padding: 10px 0;
 }
 
